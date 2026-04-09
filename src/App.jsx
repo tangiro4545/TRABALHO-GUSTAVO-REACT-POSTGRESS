@@ -17,6 +17,7 @@ export default function App () {
             <li><a href="#onde">Onde é usado</a></li>
             <li><a href="#pqserve">Pra que Serve</a></li>
             <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#vermais">Ver mais</a></li>
           </ul>
         </nav>
         <section>
@@ -62,7 +63,11 @@ export default function App () {
                   •Escalabilidade e Desempenho</p></div>
             </article>
         </section>
-        <footer></footer>
+        <footer>
+          <a id='vermais' href="https://www.postgresql.org/"  target="_blank" rel="noopener noreferrer">
+            <button type="button">Ver mais</button>
+          </a>
+        </footer>
       </main>
     </>
   )
