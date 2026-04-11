@@ -141,8 +141,6 @@ button:hover {
   color: #000;
 }
 
-/*IA para adptar para celular*/
-
 @media (max-width: 768px) {
 
 main {
