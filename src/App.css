@@ -1,3 +1,6 @@
+html {
+  scroll-padding-top: 230px;
+}
 main{
   height: 100vh;
   width: 100%;
@@ -48,7 +51,6 @@ section{
   height: auto;
   padding: 20px;
   background: #708090;
-  display: flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -115,9 +117,10 @@ p{
 
 footer{
   width: 100%;
-  height: 10vh;
+  height: 13vh;
   background: #696969;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -136,4 +139,52 @@ button:hover {
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
   background: #B0E0E6;
   color: #000;
+}
+
+/*IA para adptar para celular*/
+
+@media (max-width: 768px) {
+
+main {
+  min-height: 100vh;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+section {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card, .grande, .pequeno, .full {
+  width: 100%;
+}
+
+.logo {
+  height: 60px;
+}
+
+.pfull {
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfullum, .pfulldois {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
 }

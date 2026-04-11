@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import logo from './assets/postgresSQL.png'
 import './App.css'
 
@@ -23,7 +22,7 @@ export default function App () {
         <section>
 
             <article id="oque" className='card pequeno'>
-              <h1>O QUE É</h1>
+              <h1 >O QUE É</h1>
               <p>O PostgreSQL é um banco de dados relacional de 
                 código aberto, usado para armazenar e consultar dados 
                 estruturados.</p>
@@ -64,6 +63,7 @@ export default function App () {
             </article>
         </section>
         <footer>
+          <p>Funciona mobile</p>
           <a id='vermais' href="https://www.postgresql.org/"  target="_blank" rel="noopener noreferrer">
             <button type="button">Ver mais</button>
           </a>
